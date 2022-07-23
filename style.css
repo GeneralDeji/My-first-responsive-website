@@ -116,11 +116,14 @@ section article h2{
 }
 
 /* For my Input */
+
 form{
     display: flex;
     justify-content: center;
     padding: 30px 0;
     padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 form .email{
@@ -140,6 +143,23 @@ form button{
     width: 100px;
     border-radius: 0 5px 5px 0;
     border-left: none;
+    
+}
+
+
+/* Trying to fix my button in my form for size 348px an below */
+@media only screen and (max-width: 479px){
+    form{
+        width: 60%;
+    }
+
+    form button{
+        font-size: 12px;
+    }
+
+    form .email{
+        width: 60%;
+    }
 }
 
 section .secondimg{
