@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -148,6 +147,7 @@ form button{
 
 
 /* Trying to fix my button in my form for size 348px an below */
+/* This should work on smaller phones now */
 @media only screen and (max-width: 479px){
     form{
         width: 60%;
